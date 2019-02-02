@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Border {
+background-color: skyblue;
+color:red;
+}
+
+.menuBorder {
+  color:red;
+}
+
+.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.Menu li {
+  float: left;
+}
+
+.menubar-menu {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px 100px;
+  text-decoration: none;
+}
+
+.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.Content {
+    margin: 20px;
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+    height: 362px;
+    padding-left: 80px;
+}
+.Container {
+  height: auto;
+    width: 279px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border:1px solid pink;
+    background-color: blue;
+}
+
+.myImage {
+  top: 0px;
+    left: 0px;
+    position: relative;
+    width: 1362px;
+    height: 534px;
+    opacity: 0.87;
+}
+.sideContent {
+    height: auto;
+    width: 685px;
+    position: relative;
+    float: right;
+    bottom: 200px;
+    left: 230px;
+}
+
+.heading {
+  color:red;
+  padding:30px;
+}
+.sideContent-tran {
+    width: 500px;
+    border: 0px solid rgba(48, 120, 190, 1);
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 0;
+}
+
+.FindMore{
+  float: right;
+  position: relative;
+  background-color: rgba(255, 0, 0, 1);
+  height: 50px;
+  width: 125px;
+  left: 604px;
+    top: 31px;
+}
+
+.Find {
+    background-color: rgba(255, 0, 0, 1);
+    border: solid rgba(43, 104, 156, 1) 0px;
+    cursor: pointer !important;
+}
+
+.Space {
+  height:240px;
+  width:1519.2px;
+}
+
+.HoverDiv {
+  margin: 20px;
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+    height: 362px;
+    padding-left: 80px;
+}
+
+.right-HoverDiv {
+  width:40%;
+  height:300px;
+  float:left;
+  margin:50px;
+}
+
+.content-HoverDiv {
+    width:50%;
+    top:50px;
+    margin:auto;
+    position: relative;
+    font-size: 12px;
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+    border: solid rgba(43, 104, 156, 1) 2px;
+    transition: width 2s, height 4s;
+}
+
+.content-HoverDiv:Hover {
+   width:100%;
+   font-size: 16px;
+   top:0px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
